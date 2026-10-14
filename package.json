@@ -1,0 +1,23 @@
+{
+  "name": "@njweber/manifest-check",
+  "version": "0.1.0",
+  "description": "Audit an Android manifest (from an .aab or a text AndroidManifest.xml) for debuggable/cleartext/exported/permission problems — dependency-free.",
+  "type": "module",
+  "bin": {
+    "manifest-check": "bin/manifest-check.mjs"
+  },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["android", "aab", "apk", "manifest", "androidmanifest", "google-play", "release", "react-native", "expo", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/nwebersoftware/manifest-check.git" },
+  "homepage": "https://github.com/nwebersoftware/manifest-check#readme",
+  "bugs": { "url": "https://github.com/nwebersoftware/manifest-check/issues" },
+  "author": "Boolean Build (a Boolean Bros project)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@njweber/store-check": "^0.1.0"
+  }
+}
