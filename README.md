@@ -1,5 +1,8 @@
 # manifest-check
 
+[![npm](https://img.shields.io/npm/v/%40njweber%2Fandroid-manifest-check)](https://www.npmjs.com/package/@njweber/android-manifest-check) [![downloads](https://img.shields.io/npm/dm/%40njweber%2Fandroid-manifest-check)](https://www.npmjs.com/package/@njweber/android-manifest-check) [![CI](https://github.com/nwebersoftware/manifest-check/actions/workflows/ci.yml/badge.svg)](https://github.com/nwebersoftware/manifest-check/actions/workflows/ci.yml)
+
+
 **Audit an Android manifest before Play does.** Reads the manifest straight out of an **`.aab`**
 (protobuf) — or a plain-text `AndroidManifest.xml` — and flags the things that get builds rejected or
 quietly expose your app.
