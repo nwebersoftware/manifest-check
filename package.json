@@ -1,5 +1,5 @@
 {
-  "name": "@njweber/manifest-check",
+  "name": "@njweber/android-manifest-check",
   "version": "0.1.0",
   "description": "Audit an Android manifest (from an .aab or a text AndroidManifest.xml) for debuggable/cleartext/exported/permission problems — dependency-free.",
   "type": "module",

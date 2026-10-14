@@ -5,8 +5,8 @@
 quietly expose your app.
 
 ```bash
-npx @njweber/manifest-check ./app-release.aab
-npx @njweber/manifest-check ./android/app/src/main/AndroidManifest.xml
+npx @njweber/android-manifest-check ./app-release.aab
+npx @njweber/android-manifest-check ./android/app/src/main/AndroidManifest.xml
 ```
 
 ```
