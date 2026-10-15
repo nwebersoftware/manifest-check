@@ -59,6 +59,12 @@ manifests — no Android SDK, no `aapt2`, no Java. Runs anywhere Node runs.
 
 `app-check` · `store-check` · `ipa-check` · `privacy-check` · `icon-check`
 
+## Follow along
+
+More of this at **https://booleanbuild.com** — the tools hub, plus write-ups on store
+rejections, CI, build gates, and shipping TestFlight builds without EAS. New posts land
+roughly twice a month. Subscribe: https://booleanbuild.com/#subscribe
+
 ## License
 
 MIT.
